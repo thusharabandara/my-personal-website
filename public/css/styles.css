@@ -15,3 +15,15 @@ body {
     background-size: cover;
     position: relative;
 }
+
+/* Customize the eductation section */
+.education-info {
+    padding-top: 30px;
+    background-color: black;
+    color: rgb(202, 202, 202);
+    height: 470px;
+}
+
+.edu-button {
+    padding-top: 50px;
+}
