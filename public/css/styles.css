@@ -1,0 +1,17 @@
+/* Global styles */
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Customize the intro section */
+.my-intro {
+    padding-top: 220px;
+    height: 650px;
+    /* background-image: url('public/img/kandyan_dance.jpg'); */
+    background-color: yellow;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS Core: Latest version of bootstrap 4.3.1 (October 27, 2019) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Import custom stylesheets -->
+    <link rel='stylesheet' type='text/css' href='public/css/styles.css'>
+    <title>Thushara B.</title>
+
+    <!-- Get the content of another html file to the current html file -->
+    <script type="text/javascript" src="public/js/includehtml.js"></script>
+    
+</head>
+<body>
+    <!-- Display the layout in a div -->
+    <div w3-include-html="resources/views/layouts.html"></div>
+
+    <!-- Introduction section -->
+    <header class="text-center my-intro" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto" id="header-title">
+                    <h1 style="font-size: 50px;">
+                        <strong>Thushara Bandara</strong>
+                    </h1>
+                    <hr>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                    <p class="mb-5">Speaker. Researcher. Writer.</p>
+                    <p class="mb-5" style="font-size: 18px;">
+                        Temporary Lecturer in Computer Science</a>
+                    </p>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#education">Find Out More</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Education Section -->
+    <section class="bg-primary" id="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading text-white">Education</h2>
+                    <hr class="light my-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <i class="fa fa-4x fa-id-card-o text-faded sr-icons"></i>
+                    <h3 class="text-white">Degree</h3>
+                    <p class="text-faded">Bachelor of Science in Computer Science from
+                        <a class="text-white-link" href="https://www.uml.edu/" class="text-blue">UMass Lowell</a></p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center div-padding-fix">
+                    <i class="fa fa-4x fa-graduation-cap text-faded sr-icons"></i>
+                    <h3 class="text-white">Graduation</h3>
+                    <p class="text-faded">Graduated in May 2017 with Latin Honors</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <i class="fa fa-4x fa-code text-faded sr-icons"></i>
+                    <h3 class="text-white">Languages</h3>
+                    <p class="text-faded no-margin">C#, JavaScript, Java</p>
+                    <p class="text-faded">Python, and C / C++</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <i class="fa fa-4x fa-file-code-o text-faded sr-icons"></i>
+                    <h3 class="text-white">Skills</h3>
+                    <p class="text-faded no-margin">C# .NET Back end</p>
+                    <p class="text-faded">HTML5 Front end</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <a class="btn btn-light btn-xl js-scroll-trigger" href="#work">Wait There's More!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call includeHTML() function to get the content -->
+    <script>
+    includeHTML();
+    </script>
+</body>
+</html>
