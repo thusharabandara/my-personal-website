@@ -8,7 +8,7 @@ body {
 .my-intro {
     padding-top: 220px;
     height: 650px;
-    /* background-image: url('public/img/kandyan_dance.jpg'); */
+    background-image: url('/Users/thusharabandara/Documents/Projects/my-personal-website/public/img/kandyan_dance.JPG');
     background-color: yellow;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,12 +18,22 @@ body {
 
 /* Customize the eductation section */
 .education-info {
-    padding-top: 30px;
+    padding-top: 40px;
     background-color: black;
     color: rgb(202, 202, 202);
-    height: 470px;
+    height: 530px;
 }
 
 .edu-button {
     padding-top: 50px;
+}
+
+/* Customize the work experience section */
+.work-experience {
+    padding-top: 40px;
+    height: 575px;
+}
+
+.work-button {
+    padding-top: 30px;
 }
