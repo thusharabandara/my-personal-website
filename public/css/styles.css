@@ -8,7 +8,7 @@ body {
 .my-intro {
     padding-top: 220px;
     height: 650px;
-    background-image: url('/Users/thusharabandara/Documents/Projects/my-personal-website/public/img/kandyan_dance.JPG');
+    /* background-image: url('/public/img/galaha.JPG'); */
     background-color: yellow;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,4 +36,12 @@ body {
 
 .work-button {
     padding-top: 30px;
+}
+
+/* Customize the posts section */
+.posts {
+    padding-top: 40px;
+    height: 400px;
+    color: white;
+    background-color: yellow;
 }
