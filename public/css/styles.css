@@ -9,7 +9,7 @@ body {
     padding-top: 220px;
     height: 650px;
     background-image: url('/public/img/nelligala.JPG');
-    background-color: yellow;
+    background-color: gray;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +42,7 @@ body {
 .posts {
     padding-top: 40px;
     height: 400px;
-    background-color: yellow;
+    background-color:gray;
 }
 
 /* Customize the github section */
@@ -63,13 +63,16 @@ body {
 .tweets {
     padding-top: 40px;
     height: 600px;
-    background-color: yellow;
+    background-color: gray;
 }
+
+/* Customize the interests section */
+
 
 /* Customize the contact information section */
 .contact-info {
     padding-top: 40px;
-    height: 650px;
+    height: 375px;
     color: white;
     background-color: black;
 }
