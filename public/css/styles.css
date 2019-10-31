@@ -8,7 +8,7 @@ body {
 .my-intro {
     padding-top: 220px;
     height: 650px;
-    /* background-image: url('/public/img/galaha.JPG'); */
+    background-image: url('/public/img/nelligala.JPG');
     background-color: yellow;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,6 +42,34 @@ body {
 .posts {
     padding-top: 40px;
     height: 400px;
-    color: white;
     background-color: yellow;
+}
+
+/* Customize the github section */
+.github {
+    padding-top: 40px;
+    height: 600px;
+    background-color: black;
+    color: white;
+}
+
+/* Customize the interests section */
+.interests {
+    padding-top: 40px;
+    height: 600px;
+}
+
+/* Customize the tweets section */
+.tweets {
+    padding-top: 40px;
+    height: 600px;
+    background-color: yellow;
+}
+
+/* Customize the contact information section */
+.contact-info {
+    padding-top: 40px;
+    height: 650px;
+    color: white;
+    background-color: black;
 }
