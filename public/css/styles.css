@@ -1,3 +1,8 @@
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Global styles */
 body {
     padding: 0px;
@@ -65,9 +70,6 @@ body {
     height: 600px;
     background-color: gray;
 }
-
-/* Customize the interests section */
-
 
 /* Customize the contact information section */
 .contact-info {
