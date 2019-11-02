@@ -1,8 +1,3 @@
-/* Smooth scroll behavior */
-html {
-    scroll-behavior: smooth;
-}
-
 /* Global styles */
 body {
     padding: 0px;
@@ -53,7 +48,7 @@ body {
 /* Customize the github section */
 .github {
     padding-top: 40px;
-    height: 600px;
+    height: 680px;
     background-color: black;
     color: white;
 }
@@ -61,13 +56,14 @@ body {
 /* Customize the interests section */
 .interests {
     padding-top: 40px;
-    height: 600px;
+    height: 700px;
 }
 
 /* Customize the tweets section */
 .tweets {
     padding-top: 40px;
-    height: 600px;
+    padding-bottom: 60px;
+    max-height: 1500px;
     background-color: gray;
 }
 
