@@ -8,7 +8,7 @@ body {
 .my-intro {
     padding-top: 220px;
     height: 650px;
-    background-image: url('public/img/nelligala.jpg');
+    background-image: url('/public/img/nelligala.jpg');
     background-color: gray;
     background-position: center;
     background-repeat: no-repeat;
