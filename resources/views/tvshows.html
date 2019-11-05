@@ -10,19 +10,27 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Import custom stylesheets -->
-    <link rel='stylesheet' type='text/css' href='public/css/styles.css'>
+    <link rel='stylesheet' type='text/css' href='/public/css/styles.css'>
 
     <title>TV Shows</title>
 
     <!-- Get the content of another html file to the current html file -->
-    <script type="text/javascript" src="public/js/includehtml.js"></script>
+    <script type="text/javascript" src="/public/js/includehtml.js"></script>
     <!-- Custom Fonts -->
     <script src="https://use.fontawesome.com/4dfd1d7bab.js"></script>
 
     <!-- Import jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Smooth scrolling effect -->
-    <script type="text/javascript" src="public/js/smoothscroll.js"></script>
+    <script type="text/javascript" src="/public/js/smoothscroll.js"></script>
     
 </head>
 <body>
+    <!-- Display the layout in a div -->
+    <div w3-include-html="layouts.html"></div>
+
+     <!-- Call includeHTML() function to get the content -->
+     <script>
+        includeHTML();
+    </script>
+</body>
