@@ -74,3 +74,8 @@ body {
     color: white;
     background-color: black;
 }
+
+/* Customize Interests html pages */
+.interests-heading {
+    margin-top: 100px;
+}
