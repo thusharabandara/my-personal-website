@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tvshows>
+    <tvshow>
+        <tvshow-title>Sherlock Holmes</tvshow-title>
+        <tvshow-url>https://www.imdb.com/title/tt1475582/</tvshow-url>
+        <tvshow-img>/public/img/interests/tvshows/sherlock.jpg</tvshow-img>
+    </tvshow>
+    <tvshow>
+        <tvshow-title>Stranger Things</tvshow-title>
+        <tvshow-url>https://www.imdb.com/title/tt4574334/?ref_=nv_sr_1?ref_=nv_sr_1</tvshow-url>
+        <tvshow-img>/public/img/interests/tvshows/strangerthings.jpg</tvshow-img>
+    </tvshow>
+    <!-- <tvshow>
+        <tvshow-title></tvshow-title>
+        <tvshow-url></tvshow-url>
+        <tvshow-img></tvshow-img>
+    </tvshow> -->
+</tvshows>
