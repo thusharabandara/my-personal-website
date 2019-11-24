@@ -14,9 +14,10 @@ function displayTvShows(xml) {
     var tvshowInfo = "";
     var x = xmlDoc.getElementsByTagName("tvshow");
     for (i = 0; i < x.length; i++) {
-        tvshowInfo += "<ul><li>" +
+        tvshowInfo += "<ul><li><a href=\"" + 
+            x[i].getElementsByTagName("tvshow-url")[0].childNodes[0].nodeValue + "\">" +
             x[i].getElementsByTagName("tvshow-title")[0].childNodes[0].nodeValue +
-            "</li></ul>";
+            "</a></li></ul>";
     }
     document.getElementById("tvshows").innerHTML = tvshowInfo;
 }
