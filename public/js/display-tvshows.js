@@ -18,5 +18,5 @@ function loadTvShows() {
         x[i].getElementsByTagName("tvshow-title")[0].childNodes[0].nodeValue +
         "</li></ul>";
     }
-    document.getElementById("tvshow-info").innerHTML = tvshowInfo;
+    document.getElementById("tvshows").innerHTML = tvshowInfo;
   }
