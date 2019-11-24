@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+    <movie>
+        <movie-title>The Lord of the Rings: The Fellowship of the Ring</movie-title>
+        <released-year>2001</released-year>
+        <movie-url>https://www.imdb.com/title/tt0120737/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>The Lord of the Rings: The Two Towers</movie-title>
+        <released-year>2002</released-year>
+        <movie-url>https://www.imdb.com/title/tt0167261/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>The Lord of the Rings: The Return of the King</movie-title>
+        <released-year>2003</released-year>
+        <movie-url>https://www.imdb.com/title/tt0167260/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Harry Potter and the Sorcerer's Stone</movie-title>
+        <released-year>2001</released-year>
+        <movie-url>https://www.imdb.com/title/tt0241527/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Harry Potter and the Chamber of Secrets</movie-title>
+        <released-year>2002</released-year>
+        <movie-url>https://www.imdb.com/title/tt0295297/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Harry Potter and the Prisoner of Azkaban</movie-title>
+        <released-year>2004</released-year>
+        <movie-url>https://www.imdb.com/title/tt0304141/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Harry Potter and the Goblet of Fire</movie-title>
+        <released-year>2005</released-year>
+        <movie-url>https://www.imdb.com/title/tt0330373/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Harry Potter and the Order of the Phoenix</movie-title>
+        <released-year>2007</released-year>
+        <movie-url>https://www.imdb.com/title/tt0373889/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Harry Potter and the Half-Blood Prince</movie-title>
+        <released-year>2009</released-year>
+        <movie-url>https://www.imdb.com/title/tt0417741/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Harry Potter and the Deathly Hallows: Part 1</movie-title>
+        <released-year>2010</released-year>
+        <movie-url>https://www.imdb.com/title/tt0926084/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Harry Potter and the Deathly Hallows: Part 2</movie-title>
+        <released-year>2011</released-year>
+        <movie-url>https://www.imdb.com/title/tt1201607/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>The Hunger Games</movie-title>
+        <released-year>2012</released-year>
+        <movie-url>https://www.imdb.com/title/tt1392170/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>The Hunger Games: Catching Fire</movie-title>
+        <released-year>2013</released-year>
+        <movie-url>https://www.imdb.com/title/tt1951264/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>The Hunger Games: Mockingjay - Part 1</movie-title>
+        <released-year>2014</released-year>
+        <movie-url>https://www.imdb.com/title/tt1951265/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>The Hunger Games: Mockingjay - Part 2</movie-title>
+        <released-year>2015</released-year>
+        <movie-url>https://www.imdb.com/title/tt1951266/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>The Fast and the Furious</movie-title>
+        <released-year>2001</released-year>
+        <movie-url>https://www.imdb.com/title/tt0232500/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>2 Fast 2 Furious</movie-title>
+        <released-year>2003</released-year>
+        <movie-url>https://www.imdb.com/title/tt0322259/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>The Fast and the Furious: Tokyo Drift</movie-title>
+        <released-year>2006</released-year>
+        <movie-url>https://www.imdb.com/title/tt0463985/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Fast &amp; Furious</movie-title>
+        <released-year>2009</released-year>
+        <movie-url>https://www.imdb.com/title/tt1013752/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Fast Five</movie-title>
+        <released-year>2011</released-year>
+        <movie-url>https://www.imdb.com/title/tt1596343/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Fast &amp; Furious 6</movie-title>
+        <released-year>2013</released-year>
+        <movie-url>https://www.imdb.com/title/tt1905041/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Furious 7</movie-title>
+        <released-year>2015</released-year>
+        <movie-url>https://www.imdb.com/title/tt2820852/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>The Fate of the Furious</movie-title>
+        <released-year>2017</released-year>
+        <movie-url>https://www.imdb.com/title/tt4630562/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Fast &amp; Furious Presents: Hobbs &amp; Shaw</movie-title>
+        <released-year>2019</released-year>
+        <movie-url>https://www.imdb.com/title/tt6806448/</movie-url>
+    </movie>
+    <!-- <movie>
+        <movie-title></movie-title>
+        <released-year></released-year>
+        <movie-url></movie-url>
+    </movie>
+    <movie>
+        <movie-title></movie-title>
+        <released-year></released-year>
+        <movie-url></movie-url>
+    </movie>
+    <movie>
+        <movie-title></movie-title>
+        <released-year></released-year>
+        <movie-url></movie-url>
+    </movie>
+    <movie>
+        <movie-title></movie-title>
+        <released-year></released-year>
+        <movie-url></movie-url>
+    </movie> -->
+</movies>
