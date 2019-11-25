@@ -120,4 +120,12 @@ body {
     [class*="work-experience"] {
         text-align: center;
     }
+
+    [class*="github"] {
+        text-align: center;
+    }
+
+    [class*="interests"] {
+        text-align: center;
+    }
 }
