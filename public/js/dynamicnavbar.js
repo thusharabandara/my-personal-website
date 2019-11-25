@@ -1,5 +1,5 @@
 function dynamicNav() {
     $(window).scroll(function () {
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 650);
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 620);
     });
 };
