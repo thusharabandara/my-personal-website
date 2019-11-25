@@ -33,9 +33,10 @@ body {
 
 .education-info {
     padding-top: 50px;
+    padding-bottom: 30px;
     background-color: black;
     color: rgb(202, 202, 202);
-    height: 530px;
+    min-height: 530px;
 }
 
 .edu-button {
@@ -46,7 +47,8 @@ body {
 
 .work-experience {
     padding-top: 50px;
-    height: 575px;
+    padding-bottom: 30px;
+    min-height: 575px;
 }
 
 .work-button {
@@ -57,7 +59,8 @@ body {
 
 .posts {
     padding-top: 50px;
-    height: 400px;
+    padding-bottom: 30px;
+    min-height: 400px;
     background-color: gray;
 }
 
@@ -65,7 +68,8 @@ body {
 
 .github {
     padding-top: 50px;
-    height: 680px;
+    padding-bottom: 30px;
+    min-height: 680px;
     background-color: black;
     color: white;
 }
@@ -74,15 +78,16 @@ body {
 
 .interests {
     padding-top: 50px;
-    height: 720px;
+    padding-bottom: 30px;
+    min-height: 720px;
 }
 
 /* Customize the tweets section */
 
 .tweets {
     padding-top: 50px;
-    padding-bottom: 60px;
-    max-height: 1500px;
+    padding-bottom: 50px;
+    min-height: 200px;
     background-color: gray;
 }
 
@@ -90,7 +95,7 @@ body {
 
 .contact-info {
     padding-top: 40px;
-    height: 375px;
+    min-height: 375px;
     color: white;
     background-color: black;
 }
@@ -99,4 +104,61 @@ body {
 
 .interests-heading {
     margin-top: 100px;
+}
+
+/* For desktop devices */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile devices */
+    [class*="col-"] {
+        width: 100%;
+    }
 }
