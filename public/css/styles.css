@@ -7,13 +7,13 @@ body {
 
 /* Customize navigation-bar */
 
-.navbar-default {
+.navbar-light {
     transition: 500ms ease;
     background: transparent;
 }
 
-.navbar-default.scrolled {
-    background: black;
+.navbar-light.scrolled {
+    background-color: gray;
 }
 
 /* Customize the intro section */
