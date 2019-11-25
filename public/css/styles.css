@@ -32,7 +32,7 @@ body {
 /* Customize the eductation section */
 
 .education-info {
-    padding-top: 40px;
+    padding-top: 50px;
     background-color: black;
     color: rgb(202, 202, 202);
     height: 530px;
@@ -45,7 +45,7 @@ body {
 /* Customize the work experience section */
 
 .work-experience {
-    padding-top: 40px;
+    padding-top: 50px;
     height: 575px;
 }
 
@@ -56,7 +56,7 @@ body {
 /* Customize the posts section */
 
 .posts {
-    padding-top: 40px;
+    padding-top: 50px;
     height: 400px;
     background-color: gray;
 }
@@ -64,7 +64,7 @@ body {
 /* Customize the github section */
 
 .github {
-    padding-top: 40px;
+    padding-top: 50px;
     height: 680px;
     background-color: black;
     color: white;
@@ -73,14 +73,14 @@ body {
 /* Customize the interests section */
 
 .interests {
-    padding-top: 40px;
+    padding-top: 50px;
     height: 720px;
 }
 
 /* Customize the tweets section */
 
 .tweets {
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 60px;
     max-height: 1500px;
     background-color: gray;
