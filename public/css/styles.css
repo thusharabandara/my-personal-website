@@ -1,15 +1,27 @@
 /* Global styles */
+
 body {
     padding: 0px;
     margin: 0px;
 }
 
+/* Customize navigation-bar */
+
+.navbar-default {
+    transition: 500ms ease;
+    background: transparent;
+}
+
+.navbar-default.scrolled {
+    background: black;
+}
+
 /* Customize the intro section */
+
 .my-intro {
     padding-top: 220px;
     height: 650px;
-    background-image: url('/public/img/nelligala.jpg'), 
-                      url("../../public/img/nelligala.jpg");
+    background-image: url('/public/img/nelligala.jpg'), url("../../public/img/nelligala.jpg");
     background-color: gray;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,6 +30,7 @@ body {
 }
 
 /* Customize the eductation section */
+
 .education-info {
     padding-top: 40px;
     background-color: black;
@@ -30,6 +43,7 @@ body {
 }
 
 /* Customize the work experience section */
+
 .work-experience {
     padding-top: 40px;
     height: 575px;
@@ -40,13 +54,15 @@ body {
 }
 
 /* Customize the posts section */
+
 .posts {
     padding-top: 40px;
     height: 400px;
-    background-color:gray;
+    background-color: gray;
 }
 
 /* Customize the github section */
+
 .github {
     padding-top: 40px;
     height: 680px;
@@ -55,12 +71,14 @@ body {
 }
 
 /* Customize the interests section */
+
 .interests {
     padding-top: 40px;
     height: 720px;
 }
 
 /* Customize the tweets section */
+
 .tweets {
     padding-top: 40px;
     padding-bottom: 60px;
@@ -69,6 +87,7 @@ body {
 }
 
 /* Customize the contact information section */
+
 .contact-info {
     padding-top: 40px;
     height: 375px;
@@ -77,6 +96,7 @@ body {
 }
 
 /* Customize Interests html pages */
+
 .interests-heading {
     margin-top: 100px;
 }
