@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Credit of shortening amazon links goes to https://bitly.com/ 
+Thanks Bitly! -->
+<books>
+    <book>
+        <book-title>3001: The Final Odyssey</book-title>
+        <book-url>https://amzn.to/2rojVjy</book-url>
+        <authors>
+            <author>Arthur C. Clarke</author>
+        </authors>
+    </book>
+    <book>
+        <book-title>An Introduction to Statistical Learning: with Applications in R</book-title>
+        <book-url>https://amzn.to/2QTxgeq</book-url>
+        <authors>
+            <author>Gareth James</author>
+            <author>Daniela Witten</author>
+            <author>Trevor Hastie</author>
+            <author>Robert Tibshirani</author>
+        </authors>
+    </book>
+    <book>
+        <book-title>The Elements of Statistical Learning: Data Mining, Inference, and Prediction</book-title>
+        <book-url>https://amzn.to/33jAASA</book-url>
+        <authors>
+            <author>Trevor Hastie</author>
+            <author>Robert Tibshirani</author>
+            <author>Jerome Friedman</author>
+        </authors>
+    </book>
+    <!-- <book>
+        <book-title></book-title>
+        <book-url></book-url>
+        <authors>
+            <author></author>
+        </authors>
+    </book>
+    <book>
+        <book-title></book-title>
+        <book-url></book-url>
+        <authors>
+            <author></author>
+        </authors>
+    </book>
+    <book>
+        <book-title></book-title>
+        <book-url></book-url>
+        <authors>
+            <author></author>
+        </authors>
+    </book>  -->
+</books>
