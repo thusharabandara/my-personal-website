@@ -10,4 +10,11 @@
     font: italic smaller sans-serif;
     padding: 2px;
     text-align: center;
+    width: 340px; 
+}
+
+/* Customize the book details container in books.html */
+#book-info {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
