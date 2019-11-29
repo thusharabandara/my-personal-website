@@ -5,7 +5,7 @@ Thanks Bitly! -->
     <book>
         <book-title>3001: The Final Odyssey</book-title>
         <book-url>https://amzn.to/2rojVjy</book-url>
-        <read-year>2012</read-year>
+        <read-year>2014</read-year>
     </book>
     <book>
         <book-title>An Introduction to Statistical Learning: with Applications in R</book-title>
@@ -17,19 +17,39 @@ Thanks Bitly! -->
         <book-url>https://amzn.to/33jAASA</book-url>
         <read-year>2018</read-year>
     </book>
-    <!-- <book>
-        <book-title></book-title>
-        <book-url></book-url>
-        <read-year></read-year>
+    <book>
+        <book-title>Rich Dad Poor Dad</book-title>
+        <book-url>https://amzn.to/2q5jn1O</book-url>
+        <read-year>2019</read-year>
     </book>
     <book>
-        <book-title></book-title>
-        <book-url></book-url>
-        <read-year></read-year>
+        <book-title>Head First Java</book-title>
+        <book-url>https://amzn.to/2ryU9sY</book-url>
+        <read-year>2017</read-year>
     </book>
     <book>
-        <book-title></book-title>
-        <book-url></book-url>
-        <read-year></read-year>
-    </book>  -->
+        <book-title>Interactive Data Visualization for the Web: An Introduction to Designing with D3</book-title>
+        <book-url>https://amzn.to/33tUxGm</book-url>
+        <read-year>2019</read-year>
+    </book>
+    <book>
+        <book-title>Fundamentals of Database Systems</book-title>
+        <book-url>https://amzn.to/2R4yW4P</book-url>
+        <read-year>2016</read-year>
+    </book>
+    <book>
+        <book-title>Head First Design Patterns</book-title>
+        <book-url>https://amzn.to/2DqtwJl</book-url>
+        <read-year>2017</read-year>
+    </book>
+    <book>
+        <book-title>Basic Economics</book-title>
+        <book-url>https://amzn.to/2OVbCUA</book-url>
+        <read-year>2018</read-year>
+    </book>
+    <book>
+        <book-title>Star Wars Collector's Edition, Episodes I, II &amp; III</book-title>
+        <book-url>https://amzn.to/2QXiLq5</book-url>
+        <read-year>2014</read-year>
+    </book>
 </books>
