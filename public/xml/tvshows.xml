@@ -3,41 +3,41 @@
     <tvshow>
         <tvshow-title>Sherlock Holmes</tvshow-title>
         <tvshow-url>https://www.imdb.com/title/tt1475582/</tvshow-url>
-        <tvshow-img>/public/img/interests/tvshows/sherlock.jpg</tvshow-img>
     </tvshow>
     <tvshow>
         <tvshow-title>Stranger Things</tvshow-title>
         <tvshow-url>https://www.imdb.com/title/tt4574334/</tvshow-url>
-        <tvshow-img>/public/img/interests/tvshows/strangerthings.jpg</tvshow-img>
     </tvshow>
     <tvshow>
         <tvshow-title>Silicon Valley</tvshow-title>
         <tvshow-url>https://www.imdb.com/title/tt2575988/</tvshow-url>
-        <tvshow-img>/public/img/interests/tvshows/siliconvalley.jpg</tvshow-img>
     </tvshow>
     <tvshow>
         <tvshow-title>The Last Ship</tvshow-title>
         <tvshow-url>https://www.imdb.com/title/tt2402207/</tvshow-url>
-        <tvshow-img>/public/img/interests/tvshows/thelastship.jpg</tvshow-img>
     </tvshow>
     <tvshow>
         <tvshow-title>The Simpsons</tvshow-title>
         <tvshow-url>https://www.imdb.com/title/tt0096697/</tvshow-url>
-        <tvshow-img>/public/img/interests/tvshows/thesimpsons.jpg</tvshow-img>
     </tvshow>
     <tvshow>
         <tvshow-title>The Originals</tvshow-title>
         <tvshow-url>https://www.imdb.com/title/tt2632424/</tvshow-url>
-        <tvshow-img>/public/img/interests/tvshows/theoriginals.jpg</tvshow-img>
     </tvshow>
     <tvshow>
         <tvshow-title>The Vampire Diaries</tvshow-title>
         <tvshow-url>https://www.imdb.com/title/tt1405406/</tvshow-url>
-        <tvshow-img>/public/img/interests/tvshows/thevampirediaries.jpg</tvshow-img>
     </tvshow>
     <tvshow>
         <tvshow-title>The 100</tvshow-title>
         <tvshow-url>https://www.imdb.com/title/tt2661044/</tvshow-url>
-        <tvshow-img>/public/img/interests/tvshows/the100.jpg</tvshow-img>
+    </tvshow>
+    <tvshow>
+        <tvshow-title>My Secret Romance</tvshow-title>
+        <tvshow-url>https://www.imdb.com/title/tt6300100/</tvshow-url>
+    </tvshow>
+    <tvshow>
+        <tvshow-title>Bride of the Water God</tvshow-title>
+        <tvshow-url>https://www.imdb.com/title/tt6385752/</tvshow-url>
     </tvshow>
 </tvshows>
