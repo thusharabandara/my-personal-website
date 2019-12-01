@@ -40,7 +40,7 @@ function displayMovies(xml) {
         for (m = 0; m < movies.length; m++) {
             if (dist_years[y] == movies[m].getElementsByTagName("released-year")[0].childNodes[0].nodeValue) {
                 movieInfo += "<ul><li><a href=\"" +
-                movies[m].getElementsByTagName("movie-url")[0].childNodes[0].nodeValue + "\">" +
+                movies[m].getElementsByTagName("movie-url")[0].childNodes[0].nodeValue + "\" target=\"_blank\">" +
                 movies[m].getElementsByTagName("movie-title")[0].childNodes[0].nodeValue +
                 "</a></li></ul>";
             }
