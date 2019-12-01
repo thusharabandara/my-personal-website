@@ -40,7 +40,7 @@ function displayBooks(xml) {
         for (b = 0; b < books.length; b++) {
             if (dist_years[y] == books[b].getElementsByTagName("read-year")[0].childNodes[0].nodeValue) {
                 bookInfo += "<ul><li><a href=\"" +
-                books[b].getElementsByTagName("book-url")[0].childNodes[0].nodeValue + "\">" +
+                books[b].getElementsByTagName("book-url")[0].childNodes[0].nodeValue + "\" target=\"_blank\">" +
                 books[b].getElementsByTagName("book-title")[0].childNodes[0].nodeValue +
                 "</a></li></ul>";
             }
