@@ -38,7 +38,7 @@ function displayTvShows(xml) {
         for (y = 0; y < tvshows.length; y++) {
             if (dist_letters[x] == tvshows[y].getElementsByTagName("tvshow-title")[0].childNodes[0].nodeValue.charAt(0)) {
                 tvshowInfo += "<ul><li><a href=\"" +
-                    tvshows[y].getElementsByTagName("tvshow-url")[0].childNodes[0].nodeValue + "\">" +
+                    tvshows[y].getElementsByTagName("tvshow-url")[0].childNodes[0].nodeValue + "\" target=\"_blank\">" +
                     tvshows[y].getElementsByTagName("tvshow-title")[0].childNodes[0].nodeValue +
                     "</a></li></ul>";
             }
