@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<music-library>
+    <music-album>
+        <artist>Bon Jovi</artist>
+        <album-title>Remastered</album-title>
+        <released-year>1984</released-year>
+        <link>https://amzn.to/2OM0sml</link>
+    </music-album>
+    <music-album>
+        <artist>Bon Jovi</artist>
+        <album-title>Greatest Hits</album-title>
+        <released-year>2010</released-year>
+        <link>https://amzn.to/2LhTWBt</link>
+    </music-album>
+    <music-album>
+        <artist>Bon Jovi</artist>
+        <album-title>Lost Highway</album-title>
+        <released-year>2007</released-year>
+        <link>https://amzn.to/33LyE5w</link>
+    </music-album>
+    <music-album>
+        <artist>Bathiya and Santhush</artist>
+        <album-title>Neththara</album-title>
+        <released-year>2005</released-year>
+        <link>https://amzn.to/2P4LjeJ</link>
+    </music-album>
+    <music-album>
+        <artist>Bon Jovi</artist>
+        <album-title>Slippery When Wet Remastered</album-title>
+        <released-year>1986</released-year>
+        <link>https://amzn.to/2OHcb5i</link>
+    </music-album>
+    <music-album>
+        <artist>Bryan Adams</artist>
+        <album-title>Reckless</album-title>
+        <released-year>1984</released-year>
+        <link>https://amzn.to/34Kd6aW</link>
+    </music-album>
+    <!-- <music-album>
+        <artist></artist>
+        <album-title></album-title>
+        <released-year></released-year>
+        <link></link>
+    </music-album>
+    <music-album>
+        <artist></artist>
+        <album-title></album-title>
+        <released-year></released-year>
+        <link></link>
+    </music-album>
+    <music-album>
+        <artist></artist>
+        <album-title></album-title>
+        <released-year></released-year>
+        <link></link>
+    </music-album> -->
+</music-library>
