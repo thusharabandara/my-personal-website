@@ -3,18 +3,32 @@
     margin-top: 50px;
 }
 
-/* Customize figure captions in books.html */
-#authors {
-    background-color: #222;
-    color: #fff;
-    font: italic smaller sans-serif;
-    padding: 2px;
-    text-align: center;
-    width: 340px; 
-}
-
 /* Customize the book details container in books.html */
 #book-info {
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+/* Customize figure captions in books.html */
+#author-caption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    text-align: center;
+    width: 340px; 
+}
+
+/* Customize the book details container in movies.html */
+#movie-info {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Customize figure captions in movies.html */
+#movie-caption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    text-align: center;
+    width: 340px; 
 }
