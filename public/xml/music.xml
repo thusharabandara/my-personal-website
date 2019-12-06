@@ -252,4 +252,28 @@
         <released-year>2015</released-year>
         <link>https://amzn.to/35Y5MIN</link>
     </music-album>
+    <music-album>
+        <artist>Boney M.</artist>
+        <album-title>Take the Heat off Me</album-title>
+        <released-year>1976</released-year>
+        <link>https://amzn.to/2OW6SPS</link>
+    </music-album>
+    <music-album>
+        <artist>Boney M.</artist>
+        <album-title>Love for Sale</album-title>
+        <released-year>1977</released-year>
+        <link>https://amzn.to/2qscGah</link>
+    </music-album>
+    <music-album>
+        <artist>Boney M.</artist>
+        <album-title>Nightflight to Venus</album-title>
+        <released-year>1978</released-year>
+        <link>https://amzn.to/2Rr0ukZ</link>
+    </music-album>
+    <music-album>
+        <artist>Boney M.</artist>
+        <album-title>Oceans of Fantasy</album-title>
+        <released-year>1979</released-year>
+        <link>https://amzn.to/2RmA0RT</link>
+    </music-album>
 </music-library>
