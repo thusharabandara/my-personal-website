@@ -1,12 +1,10 @@
 /* Global styles */
-
 body {
     padding: 0px;
     margin: 0px;
 }
 
 /* Customize navigation-bar */
-
 .navbar-light {
     transition: 500ms ease;
     background: transparent;
@@ -17,7 +15,6 @@ body {
 }
 
 /* Customize the intro section */
-
 .my-intro {
     padding-top: 220px;
     height: 650px;
@@ -30,7 +27,6 @@ body {
 }
 
 /* Customize the eductation section */
-
 .education-info {
     padding-top: 50px;
     padding-bottom: 30px;
@@ -44,7 +40,6 @@ body {
 }
 
 /* Customize the work experience section */
-
 .work-experience {
     padding-top: 50px;
     padding-bottom: 30px;
@@ -56,7 +51,6 @@ body {
 }
 
 /* Customize the posts section */
-
 .posts {
     padding-top: 50px;
     padding-bottom: 30px;
@@ -65,7 +59,6 @@ body {
 }
 
 /* Customize the github section */
-
 .github {
     padding-top: 50px;
     padding-bottom: 30px;
@@ -75,7 +68,6 @@ body {
 }
 
 /* Customize the interests section */
-
 .interests {
     padding-top: 50px;
     padding-bottom: 30px;
@@ -83,7 +75,6 @@ body {
 }
 
 /* Customize the tweets section */
-
 .tweets {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -92,7 +83,6 @@ body {
 }
 
 /* Customize the contact information section */
-
 .contact-info {
     padding-top: 40px;
     padding-bottom: 2px;
@@ -102,13 +92,11 @@ body {
 }
 
 /* Customize Interests html pages */
-
 .interests-heading {
     margin-top: 100px;
 }
 
 /* Customize responsive view, in order to fit in small devices */
-
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
@@ -120,11 +108,9 @@ body {
     [class*="work-experience"] {
         text-align: center;
     }
-
     [class*="github"] {
         text-align: center;
     }
-
     [class*="interests"] {
         text-align: center;
     }
