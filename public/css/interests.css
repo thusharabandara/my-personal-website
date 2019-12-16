@@ -1,3 +1,23 @@
+/* Global styles */
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Customize navigation-bar */
+#navbar-interest {
+    margin-bottom: 80px;
+}
+
+.navbar-light {
+    transition: 500ms ease;
+    background: transparent;
+}
+
+.navbar-light.scrolled {
+    background-color: gray;
+}
+
 /* Customize Interests html pages */
 .interests-heading {
     margin-top: 50px;
