@@ -9,23 +9,24 @@
     margin-bottom: 40px;
 }
 
-/* Customize figure captions in books.html */
-#author-caption {
-    background-color: #222;
-    color: #fff;
-    font: italic smaller sans-serif;
-    text-align: center;
-    width: 340px; 
-}
-
-/* Customize the book details container in movies.html */
+/* Customize the movie details container in movies.html */
 #movie-info {
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-/* Customize figure captions in movies.html */
-#movie-caption {
+/* Customize the tvshow details container in tvshows.html */
+#tvshow-info {
+    margin-bottom: 40px;
+}
+
+/* Customize the music details container in music.html */
+#music-info {
+    margin-bottom: 40px;
+}
+
+/* Customize figure captions */
+#author-caption, #movie-caption, #tvshow-caption {
     background-color: #222;
     color: #fff;
     font: italic smaller sans-serif;
