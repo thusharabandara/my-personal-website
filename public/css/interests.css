@@ -11,7 +11,7 @@ body {
 
 .navbar-light {
     transition: 500ms ease;
-    background: transparent;
+    background: white;
 }
 
 .navbar-light.scrolled {
