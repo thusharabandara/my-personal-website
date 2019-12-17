@@ -32,7 +32,7 @@
     <script type="text/javascript" src="../../public/js/displaymovies.js"></script>
 
     <!-- Get the content of another html file to the current html file -->
-    <!-- <script type="text/javascript" src="/public/js/includehtml.js"></script> -->
+    <script type="text/javascript" src="/public/js/includehtml.js"></script>
     <!-- Custom Fonts -->
     <script src="https://use.fontawesome.com/4dfd1d7bab.js"></script>
 
@@ -41,11 +41,21 @@
     <!-- Smooth scrolling effect -->
     <script type="text/javascript" src="../../public/js/smoothscroll.js"></script>
 
+    <!-- Dynamic navigation-bar -->
+    <script type="text/javascript" src="../../public/js/dynamicnavbar.js"></script>
+
+    <!-- Bootstrap JS plugins -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Specify the default target for all links -->
+    <base href="/">
 </head>
 
 <body>
     <!-- Display the layout in a div -->
-    <!-- <div w3-include-html="/resources/views/layouts.html"></div> -->
+    <div w3-include-html="/resources/views/layouts.html" id="navbar-interest"></div>
 
     <!-- Interests heading section -->
     <section class="interests-heading" id="interests-heading">
@@ -99,7 +109,15 @@
     </div>
 
     <!-- Call includeHTML() function to get the content -->
-    <!-- <script>includeHTML();</script> -->
+    <script>
+        includeHTML();
+    </script>
+
+    <!-- Call dynamicNav() function to set the navbar dynamic while scrolling -->
+    <script>
+        dynamicNavInterest();
+    </script>
+
     <!-- Load Movies -->
     <script>
         loadMovies();
