@@ -960,12 +960,12 @@
         <released-year>2016</released-year>
         <movie-url>https://www.imdb.com/title/tt2948356/</movie-url>
     </movie>
-    <!-- <movie>
-        <movie-title></movie-title>
-        <released-year></released-year>
-        <movie-url></movie-url>
-    </movie>
     <movie>
+        <movie-title>The Knight of Shadows: Between Yin and Yang</movie-title>
+        <released-year>2019</released-year>
+        <movie-url>https://www.imdb.com/title/tt7587984/</movie-url>
+    </movie>
+    <!-- <movie>
         <movie-title></movie-title>
         <released-year></released-year>
         <movie-url></movie-url>
