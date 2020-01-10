@@ -970,6 +970,11 @@
         <released-year>2019</released-year>
         <movie-url>https://www.imdb.com/title/tt4777008/</movie-url>
     </movie>
+    <movie>
+        <movie-title>Acceleration</movie-title>
+        <released-year>2019</released-year>
+        <movie-url>https://www.imdb.com/title/tt9534808/</movie-url>
+    </movie>
     <!-- <movie>
         <movie-title></movie-title>
         <released-year></released-year>
