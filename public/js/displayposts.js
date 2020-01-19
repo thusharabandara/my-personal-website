@@ -1,4 +1,4 @@
-function loadMusic() {
+function loadPosts() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
@@ -7,10 +7,6 @@ function loadMusic() {
     };
     xmlhttp.open("GET", "../../public/xml/posts.xml", true);
     xmlhttp.send();
-}
-// Get an array with unique values
-function onlyUnique(value, index, self) {
-    return self.indexOf(value) === index;
 }
 
 function displayPosts(xml) {
@@ -24,9 +20,9 @@ function displayPosts(xml) {
     for (i = 0; i < posts.length; i++) {
         postInfo += "<ul><li><a href=\"" +
             posts[i].getElementsByTagName("post-path")[0].childNodes[0].nodeValue + "\" target=\"_blank\">" +
-            music_albums[m].getElementsByTagName("post-title")[0].childNodes[0].nodeValue +
+            posts[i].getElementsByTagName("post-title")[0].childNodes[0].nodeValue +
             "</a></li></ul>";
     }
-    // Pass the musicInfo to HTML, in order to display the content
-    document.getElementById("post").innerHTML = musicInfo;
+    // Pass the postInfo to HTML, in order to display the content
+    document.getElementById("posts").innerHTML = postInfo;
 }
