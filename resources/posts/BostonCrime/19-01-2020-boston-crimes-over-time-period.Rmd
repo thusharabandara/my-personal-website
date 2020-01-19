@@ -1,0 +1,180 @@
+---
+title: "Number of Crimes Over Time Period (Boston Crime Data Analysis)"
+author: "Thushara Bandara"
+date: "1/19/2020"
+output: 
+  html_document: 
+    highlight: espresso
+    theme: journal
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Dataset
+
+This analysis is completely based on a dataset that was obtained from Kaggle, namely it is Crimes in Boston. For further reference, visit to the given [link](https://www.kaggle.com/AnalyzeBoston/crimes-in-boston).
+
+### Packages need to import
+
+```{r relevant_packages, message=FALSE}
+# Import relevant packages
+library("ggplot2")
+library("dplyr")
+```
+
+### Load Dataset
+
+Dataset was imported using the Import Dataset functionality implemented on the Environment tab in R Studio. There is another way to do this using the code snippet given below.
+
+##### ``crime = read.csv('path_to_dataset')``
+
+```{r load_dataset}
+# Import dataset
+crimedf = read.csv('/Users/thusharabandara/Documents/rstudio-workspace/dataset/boston-crime/crime.csv')
+```
+
+
+### Overview of Dataset
+
+```{r overview}
+# Display dataframe
+head(crimedf)
+
+# Get the summary of the dataframe
+summary(crimedf)
+
+# Get the structure of the dataframe
+str(crimedf)
+
+# Get the dimension of the dataframe
+dim(crimedf)
+```
+
+As mentioned, the initial dataframe contains *319073* entries under *17* different attributes.
+
+### Data Cleansing
+
+In this phase, rows that contain *NA* values and the column that doesn't have much data were removed from the initial dataframe.
+
+```{r cleansing}
+# Drop a column from the dataframe
+crimedf_cleansed = select(crimedf, -c(7))
+
+# Omit all rows that contain NA values
+crimedf_cleansed  = na.omit(crimedf_cleansed)
+
+# Check the dimension of the cleansed dataframe
+dim(crimedf_cleansed)
+
+# Display the cleansed dataframe
+head(crimedf_cleansed)
+```
+
+### Extract Date, Year-Month, and Year from Timestamp
+
+In order to do the rest of the analysis, needed to construct 3 more other attributes.
+
+```{r extract_from_timestamp}
+# Extract date from timestamp
+crimedf_cleansed$CRIME_DATE = format(as.Date(crimedf_cleansed$OCCURRED_ON_DATE), '%Y-%m-%d')
+
+# Extract year-month from timestamp
+crimedf_cleansed$CRIME_YEAR_MONTH = format(as.Date(crimedf_cleansed$OCCURRED_ON_DATE), '%Y-%m')
+
+# Extract year from timestamp
+crimedf_cleansed$CRIME_YEAR = format(as.Date(crimedf_cleansed$OCCURRED_ON_DATE), '%Y')
+
+# Display date
+head(crimedf_cleansed$CRIME_DATE)
+
+# Display year_month
+head(crimedf_cleansed$CRIME_YEAR_MONTH)
+
+# Display year
+head(crimedf_cleansed$CRIME_YEAR)
+```
+
+### 1. Daily Crime Count
+
+```{r crimecount_by_date}
+# Get the frequency of crimes for each date
+crime_by_date = count(crimedf_cleansed, c(crimedf_cleansed$CRIME_DATE), sort = TRUE)
+
+# Rename column headings
+names(crime_by_date)[1] = "DATE"
+names(crime_by_date)[2] = "NUMBER_OF_CRIMES"
+
+# Display daily crime frequency dataframe
+head(crime_by_date)
+
+# Get the dimension of the dataframe
+dim(crime_by_date)
+```
+
+#### Barplot: Number of Crimes Vs. Crime Occured Date (Top 20)
+
+```{r barplot_crimes_by_date}
+ggplot(slice(crime_by_date, 1:20), aes(x = reorder(DATE, -NUMBER_OF_CRIMES), y = NUMBER_OF_CRIMES)) +
+  xlab('CRIME_OCCURRED_DATE') +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  geom_text(aes(label = NUMBER_OF_CRIMES), vjust = 0.8, size = 3) +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+### 2. Monthly Crime Count
+
+```{r crimecount_by_month}
+# Get the frequency of crimes for each month
+crime_by_month = count(crimedf_cleansed, c(crimedf_cleansed$CRIME_YEAR_MONTH), sort = TRUE)
+
+# Rename column headings
+names(crime_by_month)[1] = "YEAR_MONTH"
+names(crime_by_month)[2] = "NUMBER_OF_CRIMES"
+
+# Display monthly crime frequency dataframe
+head(crime_by_month)
+
+# Get the dimension of the dataframe
+dim(crime_by_month)
+```
+
+#### Barplot: Number of Crimes Vs. Crime Occured Month (i.e. Year-Month) (Top 20)
+
+```{r barplot_crimes_by_month}
+ggplot(slice(crime_by_month, 1:20), aes(x = reorder(YEAR_MONTH, -NUMBER_OF_CRIMES), y = NUMBER_OF_CRIMES)) +
+  xlab('CRIME_OCCURRED_MONTH') +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  geom_text(aes(label = NUMBER_OF_CRIMES), vjust = 0.8, size = 3) +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+### 3. Yearly Crime Count
+
+```{r crimecount_by_year}
+# Get the frequency of crimes for each year
+crime_by_year = count(crimedf_cleansed, c(crimedf_cleansed$CRIME_YEAR), sort = TRUE)
+
+# Rename column headings
+names(crime_by_year)[1] = "YEAR"
+names(crime_by_year)[2] = "NUMBER_OF_CRIMES"
+
+# Display yearly crime frequency dataframe
+head(crime_by_year)
+
+# Get the dimension of the dataframe
+dim(crime_by_year)
+```
+
+#### Barplot: Number of Crimes Vs. Crime Occured Year
+
+```{r barplot_crimes_by_year}
+ggplot(slice(crime_by_year, 1:20), aes(x = reorder(YEAR, -NUMBER_OF_CRIMES), y = NUMBER_OF_CRIMES)) +
+  xlab('CRIME_OCCURRED_YEAR') +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  geom_text(aes(label = NUMBER_OF_CRIMES), vjust = 0.8, size = 4) +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+THANK YOU...
