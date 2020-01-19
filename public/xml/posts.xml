@@ -2,7 +2,9 @@
 
 <posts>
     <post>
-        <title>Number of Crimes Over Time Period (Boston Crime Data Analysis)</title>
-        <path>../../resources/posts/BostonCrime/19-01-2020-boston-crimes-over-time-period.html</path>
+        <post-title>Number of Crimes Over Time Period (Boston Crime Data Analysis)</post-title>
+        <author-name>Thushara Bandara</author-name>
+        <post-path>../../resources/posts/BostonCrime/19-01-2020-boston-crimes-over-time-period.html</post-path>
+        <posted-date>2020-01-19</posted-date>
     </post>
 </posts>
