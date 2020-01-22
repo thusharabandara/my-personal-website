@@ -177,4 +177,3 @@ ggplot(slice(crime_by_year, 1:20), aes(x = reorder(YEAR, -NUMBER_OF_CRIMES), y =
   theme(axis.text.x = element_text(angle = 90))
 ```
 
-THANK YOU...
