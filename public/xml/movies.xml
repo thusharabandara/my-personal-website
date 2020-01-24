@@ -985,6 +985,11 @@
         <released-year>2019</released-year>
         <movie-url>https://www.imdb.com/title/tt8096832/</movie-url>
     </movie>
+    <movie>
+        <movie-title>Terminator: Dark Fate</movie-title>
+        <released-year>2019</released-year>
+        <movie-url>https://www.imdb.com/title/tt6450804/</movie-url>
+    </movie>
     <!-- <movie>
         <movie-title></movie-title>
         <released-year></released-year>
