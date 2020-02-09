@@ -990,6 +990,11 @@
         <released-year>2019</released-year>
         <movie-url>https://www.imdb.com/title/tt6450804/</movie-url>
     </movie>
+    <movie>
+        <movie-title>Aladdin</movie-title>
+        <released-year>2019</released-year>
+        <movie-url>https://www.imdb.com/title/tt6139732/</movie-url>
+    </movie>
     <!-- <movie>
         <movie-title></movie-title>
         <released-year></released-year>
