@@ -14,16 +14,25 @@ body {
     background-color: gray;
 }
 
+/* Customize the Home section backdrop */
+#home-backdrop {
+    background-color: white;
+}
+
 /* Customize the intro section */
 .my-intro {
+    top: 0px;
     padding-top: 220px;
     height: 650px;
-    background-image: url('/public/img/nelligala.jpg'), url("../../public/img/nelligala.jpg");
-    background-color: gray;
+    width: 100%;
+    /* background-image: url('/public/img/nelligala.jpg'), url("../../public/img/nelligala.jpg");
+    background-color: gray; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
+    background: transparent;
+    position: absolute;
 }
 
 /* Customize the eductation section */
