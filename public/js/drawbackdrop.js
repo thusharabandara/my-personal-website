@@ -3,23 +3,23 @@ function drawBackdrop() {
     var viz = d3.select("#home-backdrop"),
         // get the width of the div
         width = d3.getSize(viz.style('width')),
-        // get the height
-        height = Math.min(650, width),
+        // assign the height
+        height = 650,
         // particle radius
-        radius = 4.0, //2.5
+        radius = 4.5, //4.0
         // min distance between particles
-        minDistance = 40,
+        minDistance = 50, //40
         // max distance between particles
-        maxDistance = 60,
+        maxDistance = 80, //80
         minDistance2 = minDistance * minDistance,
         maxDistance2 = maxDistance * maxDistance,
         // number of particles
-        n = 150,
+        n = 100,
         // create a new array of size 'n'
         particles = new Array(n),
         paper;
 
-    // asign random locations (coordinates) for each particle
+    // assign random locations (coordinates) for each particle
     for (var i = 0; i < n; ++i) {
         particles[i] = {
             x: Math.random() * width,
@@ -51,8 +51,8 @@ function drawBackdrop() {
         paper = viz.append(type)
             .classed('particles', true)
             .attr('width', width).attr('height', height).canvasResolution(r).canvas(true)
-            .style('fill', '#000')
-            .style('stroke', '#000');
+            .style('fill', '#808080')
+            .style('stroke', '#808080');
 
         paper.append('g').classed('circles', true)
             .selectAll('circle')
