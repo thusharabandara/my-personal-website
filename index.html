@@ -50,28 +50,37 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
+    <!-- Import D3 plugin -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <!-- Import D3 canvas plugin -->
+    <script src="https://giottojs.org/d3-canvas-transition/0.3.3/d3-canvas-transition.js"></script>
+
+    <!-- Import drawbackdrop.js -->
+    <script type="text/javascript" src="public/js/drawbackdrop.js"></script>
+
     <!-- Christmas celebration -->
     <!-- <script type="text/javascript" src="public/js/snowstorm-min.js"></script> -->
-
 </head>
 
 <body>
     <!-- Display the layout in a div -->
     <div w3-include-html="resources/views/layouts.html"></div>
 
-    <!-- Introduction section -->
+    <!-- Backdrop for Home section -->
+    <div id="home-backdrop" class="home-backdrop"></div>
+
     <header class="text-center my-intro" id="home">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 mx-auto" id="header-title">
-                    <h1 style="font-size: 50px;">
+                <div class="col-lg-10 mx-auto mb-2" id="header-title">
+                    <h1 style="font-size: 50px; color: black; letter-spacing:4px;">
                         <strong>Thushara Bandara</strong>
                     </h1>
-                    <hr>
                 </div>
-                <div class="col-lg-8 mx-auto">
-                    <p class="mb-5">Speaker | Researcher | Writer</p>
-                    <p class="mb-5" style="font-size: 18px;">
+                <div class="col-lg-8 mx-auto" style="color: black;" id="short-intro">
+                    <p class="mb-5" style="letter-spacing: 2px;">Speaker | Researcher | Writer</p>
+                    <p class="mb-5" style="letter-spacing: 1px;">
                         Temporary Lecturer in Computer Science</a>
                     </p>
                     <a class="btn btn-warning btn-xl js-scroll-trigger" href="#education">Find Out More</a>
@@ -413,6 +422,11 @@
     <!-- Call dynamicNav() function to set the navbar dynamic while scrolling -->
     <script>
         dynamicNav();
+    </script>
+
+    <!-- call drawBackdrop() function to draw the animated particles on the Home section -->
+    <script>
+        drawBackdrop();
     </script>
 
     <!-- Load Posts -->
