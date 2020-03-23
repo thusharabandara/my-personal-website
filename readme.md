@@ -11,6 +11,7 @@ Also, I am really happy to say that all the work I have been doing on this websi
 [Bootstrap](https://getbootstrap.com/)<br>
 [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)<br>
 [jQuery](https://jquery.com/)<br>
+[D3](https://d3js.org/) to make powerful visualization components<br>
 [XML](https://www.w3.org/XML/) to store all the information about my interests including Books I have read, TV Shows, Movies, and Music<br>
 [GitHub Pages](https://pages.github.com/) for hosting the site<br>
 [Git](https://git-scm.com/) version control for source control<br>
