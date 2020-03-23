@@ -101,6 +101,10 @@ body {
     background-color: white;
 }
 
+.interest-card {
+    height: 200px;
+}
+
 /* Customize the tweets section */
 .tweets {
     padding-top: 50px;
@@ -140,5 +144,9 @@ body {
     }
     [class*="interests"] {
         text-align: center;
+    }
+    [class*="publication-cover"] {
+        width: 100%;
+        height: auto;
     }
 }
