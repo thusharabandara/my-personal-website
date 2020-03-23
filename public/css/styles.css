@@ -59,12 +59,29 @@ body {
     padding-top: 30px;
 }
 
+/* Customize the publications section */
+.publications {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    min-height: 400px;
+    background-color: gray;
+}
+
+#publication-info {
+    font-size: 18px;
+}
+
+#publication-link {
+    font-size: 16px;
+    color: white;
+}
+
 /* Customize the posts section */
 .posts {
     padding-top: 50px;
     padding-bottom: 30px;
     min-height: 400px;
-    background-color: gray;
+    background-color: white;
 }
 
 /* Customize the github section */
@@ -81,6 +98,7 @@ body {
     padding-top: 50px;
     padding-bottom: 30px;
     min-height: 720px;
+    background-color: white;
 }
 
 /* Customize the tweets section */
