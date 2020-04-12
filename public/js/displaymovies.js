@@ -26,8 +26,8 @@ function displayMovies(xml) {
     }
     // Find all unique years from 'years' array and store them in the 'dist_years' array 
     var dist_years = years.filter(onlyUnique);
-    // Sort the array 'dist_years'
-    dist_years.sort();
+    // Sort the array 'dist_years' in descending order
+    dist_years.sort().reverse();
     // Declare variables to handle both 'dist_years' and 'movies' inside of each for-loop
     var y, m;
     // Store all movies in the 'movies' array
