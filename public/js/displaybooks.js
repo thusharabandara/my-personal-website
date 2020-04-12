@@ -26,8 +26,8 @@ function displayBooks(xml) {
     }
     // Find all unique ready ears from 'read_years' array and store them in the 'dist_years' array 
     var dist_years = read_years.filter(onlyUnique);
-    // Sort the array 'dist_years'
-    dist_years.sort();
+    // Sort the array 'dist_years' in the descending order
+    dist_years.sort().reverse();
     // Declare variables to handle both 'dist_years' and 'movies' inside of each for-loop
     var y, b;
     // Store all books in the 'books' array
