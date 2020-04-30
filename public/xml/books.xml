@@ -57,4 +57,9 @@ Thanks Bitly! -->
         <book-url>https://amzn.to/3eeuxFO</book-url>
         <read-year>2020</read-year>
     </book>
+    <book>
+        <book-title>Steal Like an Artist: 10 Things Nobody Told You About Being Creative</book-title>
+        <book-url>https://amzn.to/2VOAJwK</book-url>
+        <read-year>2020</read-year>
+    </book>
 </books>
