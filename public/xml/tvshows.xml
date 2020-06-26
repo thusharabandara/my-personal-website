@@ -44,4 +44,8 @@
         <tvshow-title>Scorpion</tvshow-title>
         <tvshow-url>https://www.imdb.com/title/tt3514324/</tvshow-url>
     </tvshow>
+    <tvshow>
+        <tvshow-title>Mr. Robot</tvshow-title>
+        <tvshow-url>https://www.imdb.com/title/tt4158110/</tvshow-url>
+    </tvshow>
 </tvshows>
