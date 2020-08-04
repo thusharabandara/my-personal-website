@@ -1010,7 +1010,27 @@
         <released-year>2019</released-year>
         <movie-url>https://www.imdb.com/title/tt9071322/</movie-url>
     </movie>
-    <!-- <movie>
+    <movie>
+        <movie-title>Gemini Man</movie-title>
+        <released-year>2019</released-year>
+        <movie-url>https://www.imdb.com/title/tt1025100/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>John Wick</movie-title>
+        <released-year>2014</released-year>
+        <movie-url>https://www.imdb.com/title/tt2911666/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>John Wick: Chapter 2</movie-title>
+        <released-year>2017</released-year>
+        <movie-url>https://www.imdb.com/title/tt4425200/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>John Wick: Chapter 3 - Parabellum</movie-title>
+        <released-year>2019</released-year>
+        <movie-url>https://www.imdb.com/title/tt6146586/</movie-url>
+    </movie>
+     <!-- <movie>
         <movie-title></movie-title>
         <released-year></released-year>
         <movie-url></movie-url>
