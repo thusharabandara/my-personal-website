@@ -1030,7 +1030,52 @@
         <released-year>2019</released-year>
         <movie-url>https://www.imdb.com/title/tt6146586/</movie-url>
     </movie>
-     <!-- <movie>
+    <movie>
+        <movie-title>Snow White and the Huntsman</movie-title>
+        <released-year>2012</released-year>
+        <movie-url>https://www.imdb.com/title/tt1735898/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Fifty Shades of Grey</movie-title>
+        <released-year>2015</released-year>
+        <movie-url>https://www.imdb.com/title/tt2322441/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Fifty Shades Darker</movie-title>
+        <released-year>2017</released-year>
+        <movie-url>https://www.imdb.com/title/tt4465564/?ref_=nv_sr_srsg_0</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Ae Dil Hai Mushkil</movie-title>
+        <released-year>2016</released-year>
+        <movie-url>https://www.imdb.com/title/tt4559006/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Jab Tak Hai Jaan</movie-title>
+        <released-year>2012</released-year>
+        <movie-url>https://www.imdb.com/title/tt2176013/?ref_=nv_sr_srsg_0</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Jagga Jasoos</movie-title>
+        <released-year>2017</released-year>
+        <movie-url>https://www.imdb.com/title/tt4129428/?ref_=nv_sr_srsg_0</movie-url>
+    </movie>
+    <movie>
+        <movie-title>The Huntsman: Winter's War</movie-title>
+        <released-year>2016</released-year>
+        <movie-url>https://www.imdb.com/title/tt2381991/?ref_=nv_sr_srsg_3</movie-url>
+    </movie>
+    <movie>
+        <movie-title>War</movie-title>
+        <released-year>2019</released-year>
+        <movie-url>https://www.imdb.com/title/tt7430722/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Yeh Jawaani Hai Deewani</movie-title>
+        <released-year>2013</released-year>
+        <movie-url>https://www.imdb.com/title/tt2178470/?ref_=nv_sr_srsg_0</movie-url>
+    </movie>
+    <!-- <movie>
         <movie-title></movie-title>
         <released-year></released-year>
         <movie-url></movie-url>
