@@ -60,12 +60,21 @@
     <!-- Interests heading section -->
     <section class="interests-heading" id="interests-heading">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
+            <div class="row align-items-center">
+                <div class="col-lg-2">
                     <h1 class="section heading">Music</h1>
-                    <hr>
+                </div>
+                <!-- Go back to home -->
+                <div class="col-lg-10">
+                    <button class="btn btn-outline-dark btn-sm" onclick="goBack()">Go Back</button>
+                    <script>
+                        function goBack() {
+                            window.history.back();
+                        }
+                    </script>
                 </div>
             </div>
+            <hr>
             <div class="row">
                 <div class="col-lg-8">
                     <div class="music-info" id="music-info">
