@@ -1080,6 +1080,21 @@
         <released-year>2019</released-year>
         <movie-url>https://www.imdb.com/title/tt8106534/</movie-url>
     </movie>
+    <movie>
+        <movie-title>Raees</movie-title>
+        <released-year>2017</released-year>
+        <movie-url>https://www.imdb.com/title/tt3405236/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Mulan</movie-title>
+        <released-year>2020</released-year>
+        <movie-url>https://www.imdb.com/title/tt4566758/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Love and Monsters</movie-title>
+        <released-year>2020</released-year>
+        <movie-url>https://www.imdb.com/title/tt2222042/</movie-url>
+    </movie>
     <!-- <movie>
         <movie-title></movie-title>
         <released-year></released-year>
