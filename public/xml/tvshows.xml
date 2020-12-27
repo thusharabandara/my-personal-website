@@ -52,4 +52,8 @@
         <tvshow-title>The Queen's Gambit</tvshow-title>
         <tvshow-url>https://www.imdb.com/title/tt10048342/</tvshow-url>
     </tvshow>
+    <tvshow>
+        <tvshow-title>Game of Thrones</tvshow-title>
+        <tvshow-url>https://www.imdb.com/title/tt0944947/</tvshow-url>
+    </tvshow>
 </tvshows>
