@@ -1115,6 +1115,21 @@
         <released-year>2020</released-year>
         <movie-url>https://www.imdb.com/title/tt9689696/</movie-url>
     </movie>
+    <movie>
+        <movie-title>Raya and the Last Dragon</movie-title>
+        <released-year>2021</released-year>
+        <movie-url>https://www.imdb.com/title/tt5109280/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Half Girlfriend</movie-title>
+        <released-year>2017</released-year>
+        <movie-url>https://www.imdb.com/title/tt5474042/</movie-url>
+    </movie>
+    <movie>
+        <movie-title>Bheeshma</movie-title>
+        <released-year>2020</released-year>
+        <movie-url>https://www.imdb.com/title/tt11199356/</movie-url>
+    </movie>
     <!-- <movie>
         <movie-title></movie-title>
         <released-year></released-year>
