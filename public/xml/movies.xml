@@ -1130,6 +1130,11 @@
         <released-year>2020</released-year>
         <movie-url>https://www.imdb.com/title/tt11199356/</movie-url>
     </movie>
+    <movie>
+        <movie-title>Dhoom 3</movie-title>
+        <released-year>2013</released-year>
+        <movie-url>https://www.imdb.com/title/tt1833673/</movie-url>
+    </movie>
     <!-- <movie>
         <movie-title></movie-title>
         <released-year></released-year>
