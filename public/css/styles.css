@@ -23,10 +23,10 @@ body {
 .my-intro {
     top: 0px;
     padding-top: 220px;
-    height: 650px;
+    height: 600px;
     width: 100%;
-    /* background-image: url('/public/img/nelligala.jpg'), url("../../public/img/nelligala.jpg");
-    background-color: gray; */
+    /* background-image: url('/public/img/sea.jpg'), url("../../public/img/sea.jpg"); */
+    /* background-color: gray; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

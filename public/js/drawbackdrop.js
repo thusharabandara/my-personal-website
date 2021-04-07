@@ -4,7 +4,7 @@ function drawBackdrop() {
         // get the width of the div
         width = d3.getSize(viz.style('width')),
         // assign the height
-        height = 650,
+        height = 600,
         // particle radius
         radius = 4.5, //4.0
         // min distance between particles
