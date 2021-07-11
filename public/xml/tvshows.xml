@@ -56,8 +56,12 @@
         <tvshow-title>Game of Thrones</tvshow-title>
         <tvshow-url>https://www.imdb.com/title/tt0944947/</tvshow-url>
     </tvshow>
-     <tvshow>
+    <tvshow>
         <tvshow-title>Tale of the Nine Tailed</tvshow-title>
         <tvshow-url>https://www.imdb.com/title/tt12879418/</tvshow-url>
+    </tvshow>
+    <tvshow>
+        <tvshow-title>Riverdale</tvshow-title>
+        <tvshow-url>https://www.imdb.com/title/tt5420376/</tvshow-url>
     </tvshow>
 </tvshows>
