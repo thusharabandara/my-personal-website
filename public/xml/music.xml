@@ -276,4 +276,10 @@
         <released-year>1979</released-year>
         <link>https://amzn.to/2RmA0RT</link>
     </music-album>
+    <music-album>
+        <artist>Coldplay</artist>
+        <album-title>Mylo Xyloto</album-title>
+        <released-year>2011</released-year>
+        <link>https://amzn.to/3hmcCzY</link>
+    </music-album>
 </music-library>
