@@ -1140,6 +1140,11 @@
         <released-year>2021</released-year>
         <movie-url>https://www.imdb.com/title/tt5433138/</movie-url>
     </movie>
+    <movie>
+        <movie-title>Jungle Cruise</movie-title>
+        <released-year>2021</released-year>
+        <movie-url>https://www.imdb.com/title/tt0870154/</movie-url>
+    </movie>
     <!-- <movie>
         <movie-title></movie-title>
         <released-year></released-year>
