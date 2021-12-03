@@ -51,8 +51,8 @@ function drawBackdrop() {
         paper = viz.append(type)
             .classed('particles', true)
             .attr('width', width).attr('height', height).canvasResolution(r).canvas(true)
-            .style('fill', '#808080')
-            .style('stroke', '#808080');
+            .style('fill', '#235E6F')
+            .style('stroke', '#235E6F');
 
         paper.append('g').classed('circles', true)
             .selectAll('circle')

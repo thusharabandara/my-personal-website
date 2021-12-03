@@ -16,7 +16,11 @@ body {
 
 /* Customize the Home section backdrop */
 #home-backdrop {
-    background-color: white;
+    /* background-color: #34A65F; */
+    background-image: url('/public/img/nelligala.jpg'), url("../../public/img/nelligala.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Customize the intro section */
@@ -25,7 +29,7 @@ body {
     padding-top: 220px;
     height: 600px;
     width: 100%;
-    /* background-image: url('/public/img/sea.jpg'), url("../../public/img/sea.jpg"); */
+    /* background-image: url('/public/img/nelligala.jpg'), url("../../public/img/nelligala.jpg"); */
     /* background-color: gray; */
     background-position: center;
     background-repeat: no-repeat;
@@ -53,6 +57,7 @@ body {
     padding-top: 50px;
     padding-bottom: 30px;
     min-height: 600px;
+    background-color: white;
 }
 
 .work-button {
