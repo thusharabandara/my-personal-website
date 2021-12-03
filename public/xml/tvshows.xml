@@ -64,4 +64,8 @@
         <tvshow-title>Riverdale</tvshow-title>
         <tvshow-url>https://www.imdb.com/title/tt5420376/</tvshow-url>
     </tvshow>
+    <tvshow>
+        <tvshow-title>Lucifer</tvshow-title>
+        <tvshow-url>https://www.imdb.com/title/tt4052886/</tvshow-url>
+    </tvshow>
 </tvshows>
